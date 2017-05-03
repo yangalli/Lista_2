@@ -1,0 +1,42 @@
+div {
+	background-color: #4169E1;
+	padding: 20px;
+	margin: 5px;
+}
+
+#site{ 	
+	background-color: #4169E1;
+}
+#header{  	
+	background-color: #00008B;
+}
+#logo{
+	background-color: #B0B0B0;
+}
+#menu{
+	background-color: #B0B0B0;
+}
+#banner{
+	background-color: #00008B;
+}
+#comentario{
+	background-color: #B0B0B0;
+}
+#conteudo{
+	background-color: #00008B;
+}
+#esquerdo{
+	background-color: #B0B0B0;
+}
+.notícia{
+	background-color: gray;
+}
+#direito{
+	background-color: #B0B0B0;
+}
+#fotter{
+	background-color: #00008B;
+}
+#copyrighter{
+	background-color: #B0B0B0;
+}

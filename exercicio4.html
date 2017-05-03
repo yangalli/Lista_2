@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário CJR</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="exercicio4.css">
+	<h1>Formulário</h1>
+	<form action="server.html" method="GET">
+	<label for="nome">Nome:</label>
+	<input type="text" name="nome" placeholder="Nome">
+	<br>
+	<label for="e-mail">E-mail:</label>
+	<input type="text" name="e-mail" placeholder="e-mail">
+	<br>
+	<label for="senha">Senha:</label>
+	<input type="password" name="senha" placeholder="senha">
+	<br>
+	<br>
+	<br>
+	<label>Sexo:</label>
+	<br>
+	<input type="radio" name="sexo" value="masculino">
+	<label for="masculino">Masculino</label>
+	<br>
+	<input type="radio" name="sexo" value="feminino">
+	<label for="feminino">Feminino</label>
+	<br>
+	<br>
+	<br>
+	<br>
+	<label>Tecnologias:</label>
+	<br>
+	<input type="checkbox" name="HTML">
+	<label for="HTML">HTML</label>
+	<br>
+	<input type="checkbox" name="CSS">
+	<label for="CSS">CSS</label>
+	<br>
+	<input type="checkbox" name="Java">
+	<label for="Java">Java</label>
+	<br>
+	<input type="checkbox" name="PHP">
+	<label for="PHP">PHP</label>
+	<br>
+	<br>
+	<br>
+	<br>
+	<label>Descrição Pessoal:</label>
+	<br>
+	<textarea rows="10" cols="30" maxlength="200" placeholder="Digite aqui ..."></textarea>
+	<br>
+	<br>
+	<br>
+	<label>Opção:</label>
+	<select name="Opcoes">
+		<option value=" "></option>
+		<option value="Opcao 1">Opção 1</option>
+		<option value="Opcao 2">Opção 2</option>
+		<option value="Opcao 3">Opção 3</option>
+	</select>
+	<br>
+	<br>
+	<br>
+	<input type="submit">
+	<br>
+	<input type="reset" value="Limpar">
+</body>
+	</form>
+</html>
